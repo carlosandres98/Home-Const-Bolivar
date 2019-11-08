@@ -1,0 +1,221 @@
+body {
+  height: 1000vh;
+}
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  background: #ffffffcb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px #0000000d;
+  border: 0.5px solid #fffdfddd;
+  border-top: 5px solid #008c44;
+  opacity: 1;
+
+  padding: 0% 10%;
+  position: relative;
+}
+.navbarImage {
+  width: 10%;
+}
+.active {
+  border-bottom: 2px solid #008c44;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #008c44;
+}
+/* -------------- */
+
+/* HOME */
+
+#imageHomeContainer {
+  margin: 0px;
+  max-width: 100%;
+  background-image: url("assets/Image90.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+#greyHomeContainer {
+  background-color: #f8f6f4;
+  /* background: blue; */
+  height: 55vh;
+}
+.homeImage {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+}
+
+#cardsGrid {
+  padding-top: 10%;
+}
+
+#firstCard {
+  background: transparent linear-gradient(156deg, #00b245 0%, #008c44 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #50474134;
+  border-radius: 15px;
+  opacity: 1;
+  color: #ffffff;
+}
+
+#cardBodyFirstCard {
+  padding: 0.5rem 1rem;
+}
+
+#secondCard {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 30px #00000026;
+  border-radius: 15px;
+  opacity: 1;
+  margin-top: 20%;
+}
+
+.discoverButtonContent {
+  width: 100%;
+  text-align: center;
+}
+
+.btnDiscover {
+  background: #037f43;
+  border-radius: 50px;
+}
+
+#thirdCard {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 30px #00000026;
+  border-radius: 15px;
+  opacity: 1;
+  margin-top: 50%;
+}
+
+.cardCarrouselImage {
+  width: 100%;
+}
+
+/* PROJECTS */
+
+.projectsContent {
+  background: #fff;
+}
+
+#project1 {
+  border-radius: 15px;
+  background-image: url("assets/Image 4.png"), linear-gradient(179deg, #0B0B0B00 0%, #25252500 24%, #111111A4 46%, #0B0B0BCE 100%);
+  background-size: cover;
+  opacity: 1;
+  height: auto;
+}
+.cardProject {
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  padding-top: 90%;
+}
+
+.greenTitle {
+  color: #056232;
+}
+
+/* PROJECTS */
+
+/* VOICE */
+#voiceContent {
+  background: #f9f5f3;
+}
+#voiceContentText {
+  margin: 5% 2%;
+}
+.voiceImageContent {
+  align-content: center;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.voiceImage {
+  margin: 15%;
+}
+.btnRefer {
+  width: 30%;
+  background: transparent;
+  color: #037f43;
+  border: 2px solid #037f43;
+  border-radius: 25px;
+  opacity: 1;
+}
+.referArrow {
+  border: 2px solid #037f43;
+}
+/* VOICE */
+
+/* FOOTER */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+section {
+  padding: 60px 0;
+  color: #037f43;
+}
+
+section .section-title {
+  text-align: center;
+  color: #037f43;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#footer {
+  background: #f9f5f3 !important;
+}
+#footer h5 {
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+#footer a {
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li {
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.mediaIcons {
+  margin: 0% 5%;
+}
+
+/* FOOTER */
